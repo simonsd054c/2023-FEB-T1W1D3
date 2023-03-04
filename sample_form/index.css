@@ -1,0 +1,83 @@
+header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#form {
+    padding: 16px;
+    width: 50%;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-radius: 16px;
+
+    box-shadow: 0px 0px 45px 13px rgba(0,13,255,0.77);
+}
+
+.form-elements {
+    margin-bottom: 48px;
+}
+
+.form-input {
+    height: 30px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: blue;
+}
+
+#submit {
+    height: 50px;
+    min-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+}
+
+#chat {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+#chat > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: aqua;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+#chat > button:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#email {
+    margin-left: 40px;
+}
+
+#password {
+    margin-left: 18px;
+}
